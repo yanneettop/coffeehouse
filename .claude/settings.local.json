@@ -1,0 +1,20 @@
+{
+  "permissions": {
+    "allow": [
+      "mcp__desktop-commander__read_file",
+      "Bash(for f in src/sections/CoffeeSection.tsx src/sections/SweetsSection.tsx src/sections/BrunchSection.tsx src/sections/EventsSection.tsx src/sections/AboutSection.tsx src/sections/VisitSection.tsx)",
+      "Bash(do sed -i 's/className=\"\"card-editorial absolute w-\\\\[92vw\\\\] md:w-\\\\[86vw\\\\] h-\\\\[72vh\\\\] md:h-\\\\[78vh\\\\] left-1\\\\/2 top-1\\\\/2 -translate-x-1\\\\/2 -translate-y-1\\\\/2\"\"/className=\"\"card-editorial w-[92vw] md:w-[86vw] h-[72vh] md:h-[78vh] relative flex-shrink-0\"\"/g' \"$f\")",
+      "Bash(echo:*)",
+      "Bash(done)",
+      "Bash(powershell -Command:*)",
+      "Bash(powershell -File:*)",
+      "mcp__Kapture_Browser_Automation__list_tabs",
+      "mcp__Kapture_Browser_Automation__new_tab",
+      "Bash(powershell.exe -Command:*)",
+      "Bash(powershell.exe -ExecutionPolicy Bypass -File \"C:\\\\Users\\\\chest\\\\AppData\\\\Local\\\\Temp\\\\replace_sections.ps1\")",
+      "mcp__desktop-commander__list_sessions",
+      "mcp__desktop-commander__read_process_output",
+      "mcp__desktop-commander__start_process"
+    ]
+  }
+}

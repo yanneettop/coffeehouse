@@ -1,0 +1,75 @@
+/* App-specific styles */
+
+/* Ensure smooth scrolling behavior */
+html {
+  scroll-behavior: auto;
+}
+
+/* Hide scrollbar for cleaner look while maintaining functionality */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #F6F2EA;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #8F6043;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #6B4F3A;
+}
+
+/* Selection color */
+::selection {
+  background: #8F6043;
+  color: #F6F2EA;
+}
+
+/* Focus styles */
+*:focus-visible {
+  outline: 2px solid #8F6043;
+  outline-offset: 2px;
+}
+
+/* Image loading placeholder */
+img {
+  background-color: #D8C4B3;
+}
+
+/* Button hover transitions */
+button {
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+/* Input focus states */
+input:focus,
+textarea:focus {
+  border-color: #8F6043;
+}
+
+/* Responsive typography adjustments */
+@media (max-width: 640px) {
+  .font-display {
+    letter-spacing: -0.01em;
+  }
+}
+
+/* Reduced motion preferences */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+  
+  .animate-float {
+    animation: none;
+  }
+}
