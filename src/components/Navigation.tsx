@@ -36,11 +36,7 @@ export default function Navigation() {
           to="/"
           className="font-display text-xl lg:text-2xl font-bold text-espresso tracking-tight hover:text-terracotta transition-colors"
         >
-          Coffee Matters
-        </Link>
-
-        {/* Nav Links */}
-        <div className="hidden md:flex items-center gap-8">
+            BREW HOUSE
           {isHomePage ? (
             <>
               <button
